@@ -1,0 +1,218 @@
+.clr-search-btn {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff6e;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+}
+
+.delete-btn {
+  background-color: #78d4896e;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  width: 10%;
+}
+
+.lhs {
+  margin-right: 4%;
+}
+
+.rhs {
+  margin-left: 4%;
+}
+
+.cart-card {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 800px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+}
+
+.item-details img {
+  margin-right: 20px;
+}
+
+.item-controls {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 10px;
+}
+
+.shop-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop-card {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 330px;
+  text-align: center;
+}
+
+.square-image {
+  width: 100%;
+  height: calc(800px * .4);
+  object-fit: cover;
+}
+
+.put-card {
+  margin-left: 153px;
+}
+
+.put-card-text {
+  text-align: left;
+}
+
+.put-card {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 370px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 380px;
+}
+
+.card-image {
+  width: 50%;
+  height: auto;
+  margin-left: 65px;
+}
+
+.button {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #78d4896e;
+  margin: 10px;
+  padding: 7px;
+  width: auto;
+}
+
+.prev-next-button {
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+}
+
+.add-product-button {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #78d4896e;
+  padding: 5px;
+  width: auto;
+}
+
+.input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  width: 90%;
+}
+
+.input2 {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  width: 350px;
+}
+
+.input3 {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  width: 20%;
+}
+
+.form-input {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+  width: 350px;
+  height: 35px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
